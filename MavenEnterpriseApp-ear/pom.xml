@@ -26,13 +26,12 @@
     </dependencies>
   <distributionManagement>
 	
-	 
-	    
-	    <snapshotRepository>
+	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.102.125:8081/repository/wallmart-snapshot/</url>
-	    </snapshotRepository>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.233.102.125:8081/repository/wallmart-release/</url>
+	    </repository>
+	 
 	    
 	</distributionManagement>
 </project>
